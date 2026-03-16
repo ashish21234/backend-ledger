@@ -25,13 +25,6 @@ cd backend-ledger
 npm install
 ```
 
-Create a `.env` in the root:
-```env
-PORT=3000
-MONGODB_URI=your_mongo_connection_string
-JWT_SECRET=your_secret_key
-# add email config if needed
-```
 
 Run dev server:
 ```bash
